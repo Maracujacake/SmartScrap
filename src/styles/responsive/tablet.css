@@ -1,0 +1,199 @@
+@media (max-width: 1050px) {
+  .sidebar {
+    width: 195px;
+  }
+  .main-shell {
+    width: calc(100% - 195px);
+    margin-left: 195px;
+  }
+  .sidebar-brand .brand {
+    font-size: 19px;
+  }
+  .sidebar-brand .brand-sub {
+    font-size: 6px;
+    letter-spacing: 3px;
+  }
+  .nav-item {
+    font-size: 10px;
+    gap: 10px;
+    padding: 13px 10px;
+  }
+  .workspace-card strong {
+    font-size: 9px;
+  }
+  .nav-new {
+    font-size: 5px;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .stat-card {
+    padding: 17px 20px;
+  }
+  .stat-value {
+    font-size: 29px;
+  }
+  .stat-label {
+    font-size: 11px;
+  }
+  .stat-value > span {
+    font-size: 10px;
+  }
+  .stat-bottom {
+    font-size: 8px;
+  }
+  .stat-change {
+    font-size: 9px;
+  }
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+  .composition {
+    min-height: 0;
+    padding: 23px 25px 28px;
+    gap: 50px;
+  }
+  .donut {
+    width: 160px;
+    height: 160px;
+    padding: 23px;
+  }
+  .donut-legend {
+    min-width: 150px;
+    gap: 15px;
+  }
+  .donut-legend > div,
+  .donut-legend strong {
+    font-size: 11px;
+  }
+  .dashboard-bottom {
+    grid-template-columns: 1fr;
+  }
+  .compact .material-icon {
+    display: grid;
+  }
+  .lot-table.compact td {
+    font-size: 10px;
+    padding: 12px;
+  }
+  .lot-table.compact th {
+    font-size: 9px;
+    padding: 11px 12px;
+  }
+  .compact .table-lot-button strong {
+    font-size: 10px;
+  }
+  .compact .table-lot-button small {
+    font-size: 8px;
+  }
+  .compact .badge {
+    font-size: 8px;
+  }
+  .upcoming-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 16px 20px;
+    gap: 16px;
+  }
+  .upcoming-item {
+    border-bottom: 0;
+    padding: 12px 0;
+  }
+  .upcoming-detail .badge {
+    font-size: 6px;
+  }
+  .upcoming-item > svg {
+    display: none;
+  }
+  .upcoming-detail > strong {
+    font-size: 8px;
+  }
+  .upcoming-detail > small {
+    font-size: 7px;
+  }
+  .impact-banner {
+    flex-wrap: wrap;
+  }
+  .impact-banner button {
+    margin-left: 56px;
+  }
+  .page-heading h1 {
+    font-size: 24px;
+  }
+  .page-heading p {
+    font-size: 10px;
+  }
+  .page-heading > .button {
+    font-size: 10px;
+  }
+  .lot-grid,
+  .organization-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+  .filter-search {
+    min-width: 100%;
+    border-bottom: 1px solid #eef3e7;
+    padding-bottom: 7px;
+  }
+  .select-wrap {
+    flex: 1;
+  }
+  .directory-note {
+    font-size: 8px;
+  }
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+  .settings-form .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pickup-route {
+    grid-template-columns: 1fr 60px 1fr;
+  }
+  .pickup-date {
+    grid-column: 1/-1;
+    flex-direction: row !important;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    gap: 12px !important;
+    padding-top: 2px;
+  }
+  .pickup-date strong {
+    font-size: 10px;
+  }
+  .pickup-date small {
+    margin-left: auto;
+    font-size: 8px;
+  }
+  .pickup-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .pickup-steps {
+    min-width: 100%;
+    max-width: none;
+  }
+  .pickup-bottom > .button,
+  .delivery-success {
+    margin-left: auto;
+  }
+  .auth-story {
+    padding: 40px 35px 25px;
+  }
+  .auth-story h1 {
+    font-size: 35px;
+  }
+  .auth-story-content > p {
+    font-size: 12px;
+  }
+  .auth-form-side {
+    padding: 50px 35px 70px;
+  }
+  .auth-form-container > h2 {
+    font-size: 26px;
+  }
+}

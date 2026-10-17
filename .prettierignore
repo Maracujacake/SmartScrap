@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/
+docs/apresentacao/
+public/apresentacao.html
+experiments/
+package-lock.json

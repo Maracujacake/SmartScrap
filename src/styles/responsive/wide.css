@@ -1,0 +1,160 @@
+@media (min-width: 1600px) {
+  .sidebar {
+    width: 255px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .main-shell {
+    width: calc(100% - 255px);
+    margin-left: 255px;
+  }
+  .topbar {
+    height: 88px;
+    padding: 0 40px;
+  }
+  .main-content {
+    padding: 40px 40px 0;
+  }
+  .stats-grid {
+    gap: 22px;
+  }
+  .stat-card {
+    padding: 23px;
+  }
+  .stat-label {
+    font-size: 12px;
+  }
+  .stat-value {
+    font-size: 35px;
+  }
+  .stat-value > span {
+    font-size: 12px;
+  }
+  .stat-bottom {
+    font-size: 9px;
+  }
+  .stat-change {
+    font-size: 10px;
+  }
+  .charts-grid {
+    gap: 25px;
+  }
+  .line-chart {
+    max-height: 270px;
+  }
+  .composition {
+    min-height: 266px;
+  }
+  .donut {
+    width: 180px;
+    height: 180px;
+    padding: 24px;
+  }
+  .donut-legend > div {
+    font-size: 11px;
+  }
+  .panel-heading {
+    padding: 24px 24px 0;
+  }
+  .panel-heading h2 {
+    font-size: 14px;
+  }
+  .lot-table.compact td {
+    font-size: 10px;
+    padding: 14px 17px;
+  }
+  .lot-table.compact th {
+    font-size: 9px;
+    padding: 12px 17px;
+  }
+  .compact .table-lot-button strong {
+    font-size: 10px;
+  }
+  .compact .table-lot-button small {
+    font-size: 9px;
+  }
+  .compact .badge {
+    font-size: 9px;
+  }
+  .upcoming-panel .panel-heading {
+    padding: 24px 20px 0;
+  }
+  .upcoming-panel .panel-heading h2 {
+    font-size: 13px;
+  }
+  .upcoming-list {
+    padding: 14px 20px;
+  }
+  .upcoming-item {
+    padding: 20px 0;
+  }
+  .upcoming-detail > strong {
+    font-size: 11px;
+  }
+  .upcoming-detail > small {
+    font-size: 9px;
+  }
+  .upcoming-detail .badge {
+    font-size: 8px;
+  }
+  .impact-banner {
+    padding: 26px;
+  }
+  .impact-banner h3 {
+    font-size: 14px;
+  }
+  .impact-banner p {
+    font-size: 11px;
+  }
+  .impact-banner button {
+    font-size: 11px;
+  }
+  .page-heading h1 {
+    font-size: 32px;
+  }
+  .page-heading p {
+    font-size: 13px;
+  }
+  .eyebrow {
+    font-size: 9px;
+  }
+  .page-heading {
+    margin-bottom: 33px;
+  }
+  .nav-item {
+    font-size: 13px;
+    padding: 15px;
+  }
+  .workspace-card strong {
+    font-size: 12px;
+  }
+  .workspace-card div > span {
+    font-size: 10px;
+  }
+  .sidebar-impact h3 {
+    font-size: 27px;
+  }
+  .sidebar-impact p {
+    font-size: 12px;
+  }
+  .sidebar-impact button {
+    font-size: 11px;
+  }
+  .sidebar-footer {
+    margin: 0 -23px;
+    font-size: 8px;
+  }
+  .breadcrumb,
+  .global-search input {
+    font-size: 12px;
+  }
+  .profile-button strong {
+    font-size: 12px;
+  }
+  .profile-button small {
+    font-size: 9px;
+  }
+  .period-picker select {
+    font-size: 11px;
+  }
+}

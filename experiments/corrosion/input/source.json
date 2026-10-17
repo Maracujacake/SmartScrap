@@ -1,0 +1,62 @@
+{
+  "source": "CSBFNet article provided by the user; Figure 2, PDF page 5",
+  "doi": "10.1016/j.engappai.2023.106241",
+  "primary_panel": "c",
+  "notes": "Six lighting/gamma variants of the same scene; not six independent samples. No enhancement applied by SmartScrap.",
+  "images": [
+    {
+      "file": "figure2_a.png",
+      "panel": "a",
+      "size": [
+        520,
+        334
+      ],
+      "embedded_image_sha256": "da73e51ce9062ff080bad371f0dbe728cbb66056ef19f21f4dd6b8741d85a3b1"
+    },
+    {
+      "file": "figure2_b.png",
+      "panel": "b",
+      "size": [
+        520,
+        333
+      ],
+      "embedded_image_sha256": "38be16a34ca11a805f208575154fe526673772620cd4a4588a7c8003a83bc04f"
+    },
+    {
+      "file": "figure2_c.png",
+      "panel": "c",
+      "size": [
+        520,
+        333
+      ],
+      "embedded_image_sha256": "b72fdb235e9ec814bd08ff54e97ca76b57006d3adb69cb639963cdd3cc3aaf8f"
+    },
+    {
+      "file": "figure2_d.png",
+      "panel": "d",
+      "size": [
+        520,
+        330
+      ],
+      "embedded_image_sha256": "06b6fd5aa5d8868c725dd9a1241846a89a995cfda5ec5acd4db16bf17a62abf5"
+    },
+    {
+      "file": "figure2_e.png",
+      "panel": "e",
+      "size": [
+        520,
+        331
+      ],
+      "embedded_image_sha256": "6c0c85151ce0f95ebf2eaf9b3ce84f432e1a92797924f1f07e64c3c229a05bf8"
+    },
+    {
+      "file": "figure2_f.png",
+      "panel": "f",
+      "size": [
+        520,
+        330
+      ],
+      "embedded_image_sha256": "38512078aee871ba6ebc07af7fc2bead79ee605195176809af726e0939d57412"
+    }
+  ]
+}

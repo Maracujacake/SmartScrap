@@ -1,0 +1,159 @@
+/* Logistics */
+.pickups-list {
+  display: grid;
+  gap: 19px;
+}
+.pickup-card {
+  padding: 24px;
+}
+.pickup-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+.trade-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 8px;
+  background: #edf6e9;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: #70985e;
+  margin-bottom: 10px;
+}
+.trade-type.buying {
+  background: #edf3f7;
+  color: #759ab3;
+}
+.pickup-top > div > button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 15px;
+  color: #45673c;
+  font-weight: 600;
+  background: none;
+  padding: 0;
+}
+.pickup-top > div > small {
+  display: block;
+  font-size: 9px;
+  color: #9daf8d;
+  margin-top: 7px;
+}
+.pickup-route {
+  display: grid;
+  grid-template-columns: 1fr 95px 1fr 0.9fr;
+  gap: 20px;
+  align-items: center;
+  padding: 24px 0;
+}
+.pickup-route > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.pickup-route > div > span {
+  font-size: 7px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  color: #a3b593;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pickup-route strong {
+  font-size: 12px;
+  font-weight: 550;
+  color: #6a8556;
+}
+.pickup-route small {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #a4b593;
+  font-size: 9px;
+}
+.route-line {
+  display: flex;
+  align-items: center;
+  color: #a2bb8c;
+  gap: 6px;
+  padding-right: 8px;
+}
+.route-line i {
+  height: 1px;
+  border-top: 1px dashed #c5d5b6;
+  flex: 1;
+}
+.pickup-date {
+  border-left: 1px solid #eaf0e1;
+  padding-left: 25px;
+}
+.pickup-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 22px;
+  border-top: 1px solid #edf2e5;
+}
+.pickup-steps {
+  display: flex;
+  flex: 1;
+  max-width: 550px;
+  position: relative;
+}
+.pickup-steps > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  flex: 1;
+  color: #b9c6ad;
+  position: relative;
+}
+.pickup-steps > div:not(:last-child):after {
+  content: '';
+  position: absolute;
+  left: calc(50% + 19px);
+  width: calc(100% - 38px);
+  top: 12px;
+  height: 1px;
+  background: #e6eddd;
+}
+.pickup-steps > div.complete:not(:last-child):after {
+  background: #bed9ab;
+}
+.pickup-steps > div > span {
+  height: 25px;
+  width: 25px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e6eddd;
+  background: #f8faf5;
+  border-radius: 50%;
+}
+.pickup-steps > div.complete > span {
+  background: #eaf3e3;
+  border-color: #d4e6c6;
+  color: #82aa67;
+}
+.pickup-steps small {
+  font-size: 8px;
+}
+.pickup-steps .complete small {
+  color: #8da776;
+}
+.pickup-bottom > .button {
+  font-size: 10px;
+}
+.delivery-success {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #88a76c;
+  font-size: 10px;
+}

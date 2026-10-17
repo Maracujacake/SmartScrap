@@ -1,0 +1,76 @@
+{
+  "image": "figure2_d.png",
+  "panel": "d",
+  "original_size": [
+    520,
+    330
+  ],
+  "image_sha256": "277cf022fe1b466360a7df80c017cc04aace8872126713efc81934487ad82233",
+  "inference_ms": 1847.34,
+  "output_tensor_shape": [
+    1,
+    4,
+    512,
+    512
+  ],
+  "classes": [
+    {
+      "id": 0,
+      "name": "Good / Background",
+      "label": "Fundo / bom estado (agrupados)",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "pixels": 239689,
+      "percent_pixels": 91.4341
+    },
+    {
+      "id": 1,
+      "name": "Fair",
+      "label": "Fair - corrosao leve",
+      "color": [
+        128,
+        0,
+        0
+      ],
+      "pixels": 15310,
+      "percent_pixels": 5.8403
+    },
+    {
+      "id": 2,
+      "name": "Poor",
+      "label": "Poor - corrosao mais avancada",
+      "color": [
+        0,
+        128,
+        0
+      ],
+      "pixels": 1548,
+      "percent_pixels": 0.5905
+    },
+    {
+      "id": 3,
+      "name": "Severe",
+      "label": "Severe - corrosao severa",
+      "color": [
+        128,
+        128,
+        0
+      ],
+      "pixels": 5597,
+      "percent_pixels": 2.1351
+    }
+  ],
+  "corrosion_predicted_percent_pixels": 8.5659,
+  "interpretation": "Percentages of all image pixels, including background. No mass, chemical purity, or lot quality inference.",
+  "reference_mask_available": false,
+  "accuracy_f1_iou": null,
+  "files": {
+    "mask_ids": "figure2_d_ids.png",
+    "mask": "figure2_d_mask.png",
+    "overlay": "figure2_d_overlay.png",
+    "comparison": "figure2_d_comparison.png"
+  }
+}

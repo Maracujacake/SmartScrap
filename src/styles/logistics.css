@@ -1,0 +1,173 @@
+.logistics-summary,
+.rates-form,
+.email-card {
+  padding: 24px;
+}
+.logistics-summary h2,
+.email-card h2 {
+  font-size: 18px;
+  font-weight: 650;
+}
+.logistics-summary p,
+.rates-form > p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #627c6b;
+  margin: 14px 0;
+}
+.rate-list {
+  display: grid;
+  gap: 18px;
+  margin: 22px 0;
+}
+.rate-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  align-items: center;
+  gap: 18px;
+}
+.rate-material {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+}
+.rate-material input,
+.freight-confirm input {
+  accent-color: #078563;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.rate-row input:disabled {
+  opacity: 0.55;
+}
+.rates-form .field > span,
+.rates-form .field input {
+  font-size: 13px;
+  color: #405e4b;
+}
+.freight-breakdown {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 15px 0;
+}
+.freight-breakdown > div {
+  display: grid;
+  gap: 7px;
+}
+.freight-breakdown span {
+  font-size: 12px;
+  color: #657b6c;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.freight-breakdown strong {
+  font-size: 17px;
+  color: #275a42;
+  overflow-wrap: anywhere;
+}
+.freight-quote {
+  background: #f1f8f4;
+  border: 1px solid #cde6d6;
+  border-radius: 8px;
+  padding: 17px;
+}
+.freight-quote > p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.freight-quote > small {
+  display: block;
+  margin-top: 6px;
+  color: #6d826f;
+  font-size: 12px;
+}
+.freight-confirm {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.pickup-freight {
+  border-top: 1px solid #e5eee8;
+  padding: 4px 0 15px;
+}
+.pickup-freight > p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #697f70;
+}
+.email-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+.email-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+.email-status {
+  border-radius: 5px;
+  padding: 6px 9px;
+  font-size: 12px;
+  white-space: nowrap;
+  background: #fff3db;
+  color: #856126;
+}
+.email-sent {
+  background: #e7f5ee;
+  color: #087a52;
+}
+.email-failed {
+  background: #fdebe9;
+  color: #a33e35;
+}
+.email-card > p {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #718575;
+  overflow-wrap: anywhere;
+}
+.email-card pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.email-card .email-error {
+  color: #a33e35;
+}
+.org-type-choice > button:last-child:nth-child(3) {
+  grid-column: 1 / -1;
+}
+.org-type-choice > button {
+  min-height: 43px;
+}
+@media (max-width: 760px) {
+  .rate-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    border-bottom: 1px solid #e5eee8;
+    padding-bottom: 18px;
+  }
+  .freight-breakdown {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .email-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .logistics-summary,
+  .rates-form,
+  .email-card {
+    padding: 18px;
+  }
+}

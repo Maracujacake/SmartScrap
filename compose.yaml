@@ -1,0 +1,13 @@
+services:
+  smartscrap:
+    build: .
+    ports:
+      - "127.0.0.1:3001:3001"
+    environment:
+      COOKIE_SECURE: "false"
+      SEED_DEMO: "true"
+    volumes:
+      - smartscrap-data:/app/data
+    restart: unless-stopped
+volumes:
+  smartscrap-data:
